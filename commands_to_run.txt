@@ -1,0 +1,22 @@
+
+Create a Virtual Environment (Optional but recommended):
+   - If you are not already in a virtual environment, you can create one using:
+      python3 -m venv venv
+
+Activate the Virtual Environment:
+   - On Linux/macOS:  
+      source venv/bin/activate
+ 
+   - On Windos
+      venv\Scripts\activate
+
+
+Install Dependencies:
+   - Once the virtual environment is activated, run the following command to install the packages(Dependencies) listed in 'requirements.txt'
+      pip install -r requirements.txt
+
+Run the program
+   -video inference 
+      python video_inference.py
+   -live inference
+      python live_inference.py
